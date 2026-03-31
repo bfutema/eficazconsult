@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Opcional para PDF/print. Nao usar como <img src> no site: SVG externo com <image href="logo.svg"> costuma nao renderizar no navegador. -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 280 56" width="280" height="56" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Eficaz Consult</title>
+  <defs>
+    <!-- Recorte da marca (parte superior do logo.svg) -->
+    <clipPath id="markClip" clipPathUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="82" height="100"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#markClip)">
+    <image
+      href="logo.svg"
+      xlink:href="logo.svg"
+      width="170.66667"
+      height="270.66666"
+      x="0"
+      y="0"
+      preserveAspectRatio="xMinYMin meet"
+    />
+  </g>
+  <text
+    x="92"
+    y="37"
+    font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif"
+    font-size="22"
+    font-weight="700"
+    letter-spacing="-0.02em"
+  >
+    <tspan fill="#002d72">Eficaz </tspan>
+    <tspan fill="#00a6ca">Consult</tspan>
+  </text>
+</svg>
